@@ -1,8 +1,9 @@
 # Generalized best practices workflow (Luecken & Theis, 2019)
-FASTGenomics presents a generalized best practice workflow for the preprocessing of single-cell RNA-seq data. It is a simplified and slightly modified version of the single-cell-tutorial as presented in 'Best practices in single-cell RNA-seq analysis: a tutorial' by Luecken and Theis (2019).
 
+FASTGenomics presents a generalized best practice workflow for the preprocessing of single-cell RNA-seq data. It is a modified version of the single-cell-tutorial as presented in 'Best practices in single-cell RNA-seq analysis: a tutorial' by Luecken and Theis (2019).
 
 ## Workflow
+
 In this simplified best practices preprocessing workflow, we go through the typical first steps of a scRNA-seq data analysis workflow. We start with general preprocessing steps, which include cell and gene quality control, normalization, batch correction, selection of highly variable genes, visualization, and cell cycle scoring. In these steps the overall structure of the data is explored and filtered to produce optimal downstream analysis results. With the clustering of the data and application of PAGA, we also have a glimpse of the downstream scRNA-seq analysis.
 
 The calculation steps are documented in detail in Luecken & Theis (2019). For the sake of generality, we here restrict the analysis (mostly) to the upstream analysis, namely
@@ -21,9 +22,9 @@ The calculation steps are documented in detail in Luecken & Theis (2019). For th
 4. Save results
 5. Summary
 
-
 ## Datasets
-This FASTGenomics app runs successfully on several datasets that are available from FASTGenomics, namely
+
+This FASTGenomics app runs successfully on several datasets that are available from FASTGenomics, e.g.
 * 3k PBMCs 10x
 * Haber et al. (2017)
 * Mass et al. (2016)
